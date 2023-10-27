@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="container">
+    <nav>
+        <div class="navfirst">
+            <div class="logo">Weather<span>App</span></div>
+            <li>Home</li>
+            <li>About</li>
+            <li>Usage</li>
+        </div>
+        <div class="search">
+            <input type="text" id="searchinpt" placeholder="Enter Your City">
+            <span class="span" id="sbmt">Search</span>
+
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="text-center">Weather For <span id="cityname"></span></h1>
+        <main>
+            <div class="row row-cols-1 row-cols-md-1 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header text-bg-primary py-3">
+                            <h4 class="my-0 fw-normal">Weather Report </h4>
+                        </div>
+                        <div class="card-body">
+
+
+                            <div class="temp">Temprature&nbsp;:&nbsp;&nbsp;<span id="temp"></span></div>
+                            <div class="main">
+                                <div class="first">
+                                    <div>Min Temp&nbsp;:&nbsp;&nbsp;<span id="min_temp"></span></div>
+                                    <div>Max Temp&nbsp;:&nbsp;&nbsp;<span id="max_temp"></span></div>
+                                    <div>Wind Speed&nbsp;:&nbsp;&nbsp;<span id="wind_speed"></span></div>
+                                    <div>Wind degree&nbsp;:&nbsp;&nbsp;<span id="wind_degrees"></span></div>
+                                </div>
+
+
+                                <div class="scnd">
+                                    <div>Humidity&nbsp;:&nbsp;&nbsp;<span id="humidity"></span></div>
+                                    <div>Cloud &nbsp;:&nbsp;&nbsp;<span id="cloud_pct"></span></div>
+                                    <div>Sunrise&nbsp;:&nbsp;&nbsp;<span id="sunrise"></span></div>
+                                    <div>Sunset&nbsp;:&nbsp;&nbsp;<span id="sunset"></span></div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <script src="script.js"></script>
+
+</body>
+
+</html>

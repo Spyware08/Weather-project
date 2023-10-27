@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4B515D;
+    padding: 15px 10px;
+    color: white;
+}
+
+body {
+    background-size: cover;
+}
+
+.navfirst {
+    display: flex;
+}
+
+.navfirst li {
+    list-style: none;
+    margin: 0px 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+}
+
+.logo span {
+    color: red;
+}
+
+.search {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#searchinpt {
+    padding: 7px 5px;
+    margin-top: -4px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    padding: 1px 9px 3px 9px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.span:hover {
+    background-color: red;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#cityname {
+    color: red;
+}
+
+.temp {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.first {
+    display: block;
+    border: 1px solid;
+    padding: 50px 90px;
+    border-radius: 5px;
+    border-color: rgb(219, 216, 216);
+}
+
+.scnd {
+    display: block;
+    border: 1px solid;
+    padding: 50px 90px;
+    border-radius: 5px;
+    border-color: rgb(219, 216, 216);
+
+}
+
+#temp {
+    color: red;
+}
+
+#cityname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
