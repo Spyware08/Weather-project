@@ -113,3 +113,31 @@ body {
 #cityname {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media only screen and (max-width: 768px) {
+    
+
+    .first {
+        border: 1px solid;
+        padding: 20px 20px;
+        border-radius: 5px;
+        width: 200px;
+
+        border-color: rgb(219, 216, 216);
+    }
+
+    .scnd {
+        width: 200px;
+        border: 1px solid;
+        padding: 20px 20px;
+        border-radius: 5px;
+        border-color: rgb(219, 216, 216);
+    }
+
+    .container{
+        background-repeat: no-repeat;
+    }
+    .col{
+        margin-top: 50px;
+    }
+}
