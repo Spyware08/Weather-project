@@ -37,7 +37,7 @@ body {
 }
 
 .logo span {
-    color: green;
+    color: red;
 }
 
 .search {
@@ -114,7 +114,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 650px) {
+   
+    #searchinpt{
+        width: 120px;
+    }
     
 
     .first {
@@ -134,16 +138,28 @@ body {
         border-color: rgb(219, 216, 216);
     }
 
-    .container{
+    #container{
         background-repeat: no-repeat;
+        height: 100vh;
     }
     .col{
         margin-top: 50px;
     }
 }
-@media only screen and (max-width: 768px) {
-    .navfirst {
+@media only screen and (max-width: 579px) {
+    nav{
         display: block;
+        
+    }
+    #searchinpt{
+        width: 220px;
+    }
+    .navfirst{
+        display: flex;
+        justify-content: space-between;
+    }
+    .search{
+        text-align: center;
     }
 
 }
