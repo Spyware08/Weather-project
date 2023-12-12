@@ -115,11 +115,10 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
-   
-    #searchinpt{
+
+    #searchinpt {
         width: 120px;
     }
-    
 
     .first {
         border: 1px solid;
@@ -138,27 +137,32 @@ body {
         border-color: rgb(219, 216, 216);
     }
 
-    #container{
+    #container {
         background-repeat: no-repeat;
         height: 100vh;
     }
-    .col{
+
+    .col {
         margin-top: 50px;
     }
 }
+
 @media only screen and (max-width: 579px) {
-    nav{
+    nav {
         display: block;
-        
+
     }
-    #searchinpt{
+
+    #searchinpt {
         width: 220px;
     }
-    .navfirst{
+
+    .navfirst {
         display: flex;
         justify-content: space-between;
     }
-    .search{
+
+    .search {
         text-align: center;
     }
 
